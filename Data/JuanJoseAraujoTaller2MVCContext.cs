@@ -15,5 +15,6 @@ namespace JuanJoseAraujoTaller2MVC.Data
         }
 
         public DbSet<JuanJoseAraujoTaller2MVC.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<JuanJoseAraujoTaller2MVC.Models.Promo> Promo { get; set; }
     }
 }
